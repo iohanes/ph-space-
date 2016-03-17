@@ -88,8 +88,7 @@ def main():
 	newdata = map(lambda x, y: x ** 2 + 100 * y, range(10), range(10, 20))
 	print newdata
 
-	# this will turn your program in sort of quine
-	# read this file and print it
+	# read this file and print it (quine)
 	# print open('syntax.py').read()
 
 
