@@ -4,3 +4,5 @@
 *.eps
 *.pdf
 .ipynb_checkpoints/*
+.pytest_cache
+.python-version
