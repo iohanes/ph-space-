@@ -1,4 +1,5 @@
 FROM rootproject/root-ubuntu16
+USER root
 
 ADD . /phspace
 WORKDIR /phspace
