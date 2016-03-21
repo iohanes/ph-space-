@@ -5,7 +5,6 @@ ADD . /phspace
 WORKDIR /phspace
 
 # Install python pip
-RUN apt-get install -y software-properties-common
 RUN apt-add-repository -y universe
 RUN apt-get update -y
 RUN apt-get install python-pip
