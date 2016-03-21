@@ -1,3 +1,4 @@
-# phspase [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/kqf/phspace) 
+# phspase [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/kqf/phspace) ![build](https://travis-ci.com/kqf/phspace.svg?branch=master)
 
-Contents
+Testing properties of decaying particles
+
