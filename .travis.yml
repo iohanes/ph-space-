@@ -5,6 +5,8 @@ language: python
 services:
   - docker
 
+install:
+
 script:
   - docker build -t tests .
   - docker ps -a
