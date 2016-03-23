@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
-from data.ResonanceDecay import GetPseudoRandomData
+from data.resonancedecay import GetPseudoRandomData
 
 
 def test_simple():
-    phi = GetPseudoRandomData()
+    phi = GetPseudoRandomData()[0]
     assert phi.GetEntries() > 0
